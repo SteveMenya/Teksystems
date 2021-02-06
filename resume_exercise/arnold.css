@@ -1,0 +1,77 @@
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+}
+body {
+  background: #d3d3d3;
+  font-size: 14px;
+  line-height: 22px;
+  color: 555555;
+}
+.pic {
+  width: 200px;
+  height: 200px;
+  background-image: url(https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU1MTIyMTE4MTU5/arnold-schwarzenegger-9476355-1-402.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 2px;
+  border: 1px solid white;
+  margin-bottom: 50px;
+  float: left;
+}
+.name {
+    color: white;
+    font-size: 50px;
+    float: left;
+    margin: 20px;
+}
+.role {
+    color: #00d9ff56;
+    margin: 20px;
+}
+.bio {
+  clear: both;
+}
+.info {
+  float: right;
+  color: darkgrey;
+  font-size: 20px;
+  font-weight: bold;
+}
+.line {
+    border-bottom: gray 1px;
+    background-color: gray;
+    opacity: .6;
+    margin: 2px;
+}
+.header {
+    text-align: right;
+    color: white;
+}
+.right {
+    float: left;
+    width: 50%;
+}
+.left {
+    float: right;
+}
+.skills {
+    margin: 20px;
+    height: 350px;
+   padding: 20px;
+}
+.graphics {
+    margin: 20px;
+    height: 350px;
+   padding: 20px;
+}
+.skills {
+    background-color: yellow;
+}
+.Wordpress {
+    box
+}
