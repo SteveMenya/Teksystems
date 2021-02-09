@@ -7,13 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cross</title>
     <script type="text/javascript">
-        switch (x) {
-            case 'value1': //if (x === value1)
-
-            case 'value 2': //if (x ==='value2';
-                break
-        }
-    </script>
+        size = prompt("Input Size")
+           for (var i = 0; i < size; i++) {
+               var row = ""
+               var count = size-1-i
+               for (var j = 0; j < size; j++) {
+                   if (i == j||j==count) {
+                       row += "x"
+                   } else {
+                       row += " "
+                   }
+               }
+               console.log(row)
+           }
+           </script>
 </head>
 
 <body>
